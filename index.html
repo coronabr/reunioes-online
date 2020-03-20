@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Início | coronabr</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="text/javascript" defer src="js/app.js"></script>
 </head>
 <body>
 
@@ -34,25 +36,79 @@
 
     <div class="container pb-5 mb-5">
 
+        <a name="porque"></a>
+
         <section>
-            <h3>Por quê?</h3>
+            <a href="#porque" class="text-dark">
+                <h3>
+                    <img src="images/link.svg" alt="link">
+                    Por quê?
+                </h3>
+            </a>
             <p>
                 Acompanhando o impacto do <i>COVID-19</i> ao redor do mundo, é nítido o impacto da aglomeração de pessoas e a forma como é possível conter por um tempo os picos de contaminação no meio da população. Por este motivo torna-se necessário que igrejas, templos, reuniões etc, estejam preparados para este novo momento. Assim sendo, este projeto visa ajudar aos mais leigos quanto a tecnologia a criarem lives, vídeos, transmições. Evitando assim a aglomeração por falta de alternativas.
             </p>
         </section>
 
-        <section>
-            <h3>Criando livestreams/ao vivo</h3>
-            <p>
-                Uma das coisas mais necessárias é a presença reunião das pessoas envolvidas, claro. Portanto as lives são ferramentas extremamente importantes neste momento. Existem <strong>diversas</strong> maneiras de se fazer lives atualmente: <a href="https://www.facebook.com/live/create" target="_blank">Facebook</a>, <a href="https://www.instagram.com/" target="_blank">Instagram</a>, <a href="https://www.twitch.tv/" target="_blank">Twitch</a>, <a href="https://www.youtube.com/live">YouTube</a> etc. Sendo que usar uma ou outra tem a ver com o seu público e deve ser estudado antes de se iniciar as lives.
-            </p>
-            <p>
-                Converse e pesquis em meio ao seu público, qual a plataforma mais acessada por eles. É necessário atentar-se para o fato de que os grupos de pessoas mais idosas, ou mesmo adultos, tenham uma maior dificuldade para acessar tais sistemas. É uma boa oportunidade para usar dos mais novos para atingir a estes grupos, <strong>dando assistência via chat/chamada</strong>.
-            </p>
-        </section>
+        <a name="livestreams"></a>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <section>
+                    <a href="#livestreams" class="text-dark">
+                        <h3>
+                            <img src="images/link.svg" alt="link">
+                            Criando livestreams/ao vivo
+                        </h3>
+                    </a>
+                    <p>
+                        Uma das coisas mais necessárias é a presença reunião das pessoas envolvidas, claro. Portanto as lives são
+                        ferramentas extremamente importantes neste momento. Existem <strong>diversas</strong> maneiras de se fazer lives
+                        atualmente: <a href="https://www.facebook.com/live/create" target="_blank">Facebook</a>, <a
+                            href="https://www.instagram.com/" target="_blank">Instagram</a>, <a href="https://www.twitch.tv/"
+                            target="_blank">Twitch</a>, <a href="https://www.youtube.com/live">YouTube</a> etc. Sendo que usar uma ou
+                        outra tem a ver com o seu público e deve ser estudado antes de se iniciar as lives.
+                    </p>
+                    <p>
+                        Converse e pesquis em meio ao seu público, qual a plataforma mais acessada por eles. É necessário atentar-se
+                        para o fato de que os grupos de pessoas mais idosas, ou mesmo adultos, tenham uma maior dificuldade para acessar
+                        tais sistemas. É uma boa oportunidade para usar dos mais novos para atingir a estes grupos, <strong>dando
+                            assistência via chat/chamada</strong>.
+                    </p>
+                    <p>
+                        Clique na imagem ao lado para reproduzir o vídeo gravado pelo <strong>Midia De Crente</strong> (<a href="https://instagram.com/midiadecrente" target="_blank">@midiadecrente</a>)
+                    </p>
+                </section>
+            </div>
+            <div class="col-lg-4">
+                <div id="criar-live-preview" onclick="openVideo('#criar-live', '#criar-live-preview')">
+                    <img src="images/criar-live-small.jpg" alt="Como criar uma live - Midia De Crente" title="Como criar uma live - Midia De Crente" width="100%" />
+                    <p>Como fazer um culto ao vivo, do jeito mais fácil e simples, no meio da pandemia do COVID-19.</p>
+                    <p class="text-muted">
+                        <small>
+                            Agradecimentos ao <strong>Midia De Crente</strong> (<a href="https://instagram.com/midiadecrente"
+                                target="_blank">@midiadecrente</a>).
+                        </small>
+                    </p>
+                </div>
+                <div id="criar-live">
+                    <video width="100%" controls>
+                        <source src="videos/criar-live.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <a name="podcast-audio-ou-video"></a>
 
         <section>
-            <h3>Podcast/gravação de áudio e vídeo</h3>
+            <a href="#podcast-audio-ou-video" class="text-dark">
+                <h3>
+                    <img src="images/link.svg" alt="link">
+                    Podcast/gravação de áudio e vídeo
+                </h3>
+            </a>
             <p>
                 Além das lives, uma outra forma de atingir às pessoas, é através dos podcasts. Explicando o que é um podcast de maneira simplificada, seriam uma espécie de programas como os de rádios. A diferença é que estes ficam gravados e podem ser acessados via internet a qualquer momento. Existem <i>n</i> formas de se gravar e distribuir podcasts. Para gravação você poderá utilizar um programa de gravação de áudio no seu aparelho e por fim postá-lo em serviços como o <a href="https://soundcloud.com/">SoundCloud</a>.
             </p>
@@ -62,7 +118,10 @@
         </section>
 
         <section>
-            <h3>Por enquanto é isso</h3>
+            <h3>
+                <img src="images/link.svg" alt="link">
+                Por enquanto é isso
+            </h3>
             <p>
                 Tome os devidos cuidados, procure ajuda quando necessário, mas não negligencie causando assim um impacto maior para toda a população.
             </p>
